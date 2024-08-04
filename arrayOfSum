@@ -1,0 +1,8 @@
+// ArrayOfSum
+
+function arrayOfSum(arr){
+return arr.reduce((sum,current)=>sum+current,0)
+}
+const array=[1,2,3,4,10,11];
+const result=arrayOfSum(array);
+console.log(result)
